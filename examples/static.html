@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>POWER.CODERS Music Database</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+
+    .powercoders {
+      color: #333
+    }
+
+    .powercoders:before,
+    .powercoders:after,
+    .powercoders .dot {
+      color: #b2314a;
+    }
+
+    .powercoders:before,
+    .powercoders:after {
+      position: relative;
+      font-size: 110%;
+      top: -0.05em;
+    }
+
+    .jumbotron h1 {
+      margin-top: 0px;
+    }
+
+    .powercoders:before {
+      content: '{';
+      padding-right: 0.2em;
+    }
+
+    .powercoders:after {
+      content: '}';
+      padding-left: 0.2em;
+    }
+
+    .media-list {
+      margin-top: 15px;
+      border-top: 1px solid #ccc;
+    }
+
+    .media-list .media {
+      border-bottom: 1px solid #ccc;
+      margin-top: 0;
+    }
+
+    .media-list .media h4 {
+      font-size: 16px;
+      margin-top: 14px;
+    }
+
+    .media-list .media.active {
+      background-color: #337ab7;
+      color: #fff;
+    }
+
+    .media-list .media .media-image {
+      width: 48px;
+      height: 48px;
+    }
+
+    #artist-listing .media {
+      cursor: pointer;
+    }
+
+    #artist-details .nav-tabs {
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+
+    .album-grid {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .album-grid:after {
+      content: '';
+      clear: left;
+    }
+
+    .album-grid .album-grid-item {
+      float: left;
+      width: 180px;
+      min-height: 230px;
+      margin-right: 15px;
+      margin-bottom: 15px;
+    }
+
+    .album-grid .album-grid-item > img {
+      width: 174px;
+      max-height: 174px;
+    }
+
+    .album-grid .album-body > a {
+      display: block;
+      padding: 8px 0;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 50px;
+      border-top: 1px solid #ddd;
+      padding-top: 15px;
+    }
+
+    footer .container .row > div {
+      font-size: 85%;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1><span class="powercoders">POWER<b class="dot">.</b>CODERS</span> Music&nbsp;Database</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h3>Databse Results</h3>
+
+          <ul class="media-list" id="artist-listing">
+            <li class="media active">
+              <div class="media-left">
+                <img class="media-image" src="https://lastfm-img2.akamaized.net/i/u/64s/f2bd37e1c324dc99dfbfc1a1d862a925.png" alt="Cher">
+              </div>
+              <div class="media-body">
+                <h4>Cher</h4>
+              </div>
+            </li>
+            <li class="media">
+              <div class="media-left">
+                <img class="media-image" src="https://lastfm-img2.akamaized.net/i/u/64s/8cc9bf28b6744a68ae8c2769d81dd2a0.png" alt="Madonna">
+              </div>
+              <div class="media-body">
+                <h4>Madonna</h4>
+              </div>
+            </li>
+            <li class="media">
+              <div class="media-left">
+                <img class="media-image" src="https://lastfm-img2.akamaized.net/i/u/64s/e41988067c714257aebda2e412b6ba72.png" alt="Neneh Cherry">
+              </div>
+              <div class="media-body">
+                <h4>Neneh Cherry</h4>
+              </div>
+            </li>
+          </ul>
+
+          <p><span class="badge">3</span> Artists found</p>
+        </div>
+        <div class="col-md-7" id="artist-details">
+          <h3>Cher (Artist Name)</h3>
+
+          <p>
+            1'005'586 Listeners
+            &nbsp;
+            <span class="badge">On Tour</span>
+          </p>
+
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active">
+              <a href="#artist-bio" role="tab" data-toggle="tab">Biography</a>
+            </li>
+            <li role="presentation">
+              <a href="#artist-albums" role="tab" data-toggle="tab">Albums</a>
+            </li>
+            <li role="presentation">
+              <a href="#similar-artists" role="tab" data-toggle="tab">Similar Artists</a>
+            </li>
+          </ul>
+
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="artist-bio">
+              <p>Cher (born Cherilyn Sarkisian; May 20, 1946) is an Oscar- and Grammy-winning American singer and actress. A major figure for over five decades in the world of popular culture, she is often referred to as the Goddess of Pop for having first brought the sense of female autonomy and self-actualization into the entertainment industry. She is known for her distinctive contralto and for having worked extensively across media, as well as for continuously reinventing both her music and image, the latter of which has been known to induce controversy. <a href="https://www.last.fm/music/Cher">Read more on Last.fm</a></p>
+            </div>
+
+            <div role="tabpanel" class="tab-pane" id="artist-albums">
+              <ul class="album-grid" id="album-listing">
+                <li class="album-grid-item">
+                  <div class="album-top">
+                    <a href="https://www.last.fm/music/Cher/The+Very+Best+of+Cher" target="lastfm">
+                      <img class="album-image" src="https://lastfm-img2.akamaized.net/i/u/174s/287bc1657795451399d8fadf64555e91.png" alt="The Very Best Of Cher">
+                    </a>
+                  </div>
+                  <div class="album-body">
+                    <a href="https://www.last.fm/music/Cher/The+Very+Best+of+Cher" target="lastfm">
+                      The Very Best of Cher
+                    </a>
+                  </div>
+                </li>
+                <li class="album-grid-item">
+                  <div class="album-top">
+                    <a href="https://www.last.fm/music/Cher/Believe" target="lastfm">
+                      <img class="album-image" src="https://lastfm-img2.akamaized.net/i/u/174s/b0c2311a9af7f0edbc8b99450944ca1b.png" alt="Believe">
+                    </a>
+                  </div>
+                  <div class="album-body">
+                    <a href="https://www.last.fm/music/Cher/Believe" target="lastfm">
+                      Believe
+                    </a>
+                  </div>
+                </li>
+                <li class="album-grid-item">
+                  <div class="album-top">
+                    <a href="https://www.last.fm/music/Cher/Cher%27s+Greatest+Hits:+1965-1992" target="lastfm">
+                      <img class="album-image" src="https://lastfm-img2.akamaized.net/i/u/174s/0232e085741c6b7dfb8ccd6cdcbbad0e.png" alt="Cher's Greatest Hits: 1965-1992">
+                    </a>
+                  </div>
+                  <div class="album-body">
+                    <a href="https://www.last.fm/music/Cher/Cher%27s+Greatest+Hits:+1965-1992" target="lastfm">
+                      Cher's Greatest Hits: 1965-1992
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="similar-artists">
+              <p>Similar artists listing goes here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p class="pull-left">
+              A <a href="https://powercoders.org" target="_blank" class="powercoders">POWER.CODERS</a> project
+            </p>
+            <p class="pull-right">
+              Built with jQuery
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
