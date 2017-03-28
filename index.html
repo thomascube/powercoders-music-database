@@ -24,37 +24,40 @@
             <!-- artist listing goes here -->
           </ul>
 
-          <p><span class="badge">0</span> Artists found</p>
+          <p><span class="badge" id="artist-count">0</span> Artists found</p>
         </div>
         <div class="col-md-7" id="artist-details">
-          <h3>Artist Name</h3>
+          <h3 class="name">Artist Name</h3>
 
-          <p>Artist details go here</p>
+          <p class="info">Artist details go here</p>
+
+          <p class="link"><a href="#">Visit profile on last.fm</a></p>
 
           <!-- tabs -->
           <ul class="nav nav-tabs" role="tablist">
             <li role="presentation" class="active">
-              <a href="#artist-bio" role="tab">Biography</a>
+              <a href="#artist-albums" role="tab" data-toggle="tab">Albums</a>
             </li>
             <li role="presentation">
-              <a href="#artist-albums" role="tab">Albums</a>
+              <a href="#artist-bio" role="tab" data-toggle="tab">Biography</a>
             </li>
             <li role="presentation">
-              <a href="#similar-artists" role="tab">Similar Artists</a>
+              <a href="#similar-artists" role="tab" data-toggle="tab">Similar Artists</a>
             </li>
           </ul>
 
           <!-- tab contents -->
           <div class="tab-content">
-            <div role="tabpanel" class="tab-pane active" id="artist-bio">
-              <p>Artist bio goes here</p>
-            </div>
-
-            <div role="tabpanel" class="tab-pane" id="artist-albums">
+            <div role="tabpanel" class="tab-pane active" id="artist-albums">
               <ul class="album-grid" id="album-listing">
                 <!-- album listing goes here -->
               </ul>
             </div>
+
+            <div role="tabpanel" class="tab-pane" id="artist-bio">
+              <p>Artist bio goes here</p>
+            </div>
+
             <div role="tabpanel" class="tab-pane" id="similar-artists">
               <!-- album listing goes here -->
             </div>
@@ -80,6 +83,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/mock-data.js"></script>
+    <script src="./js/objects.js"></script>
+    <script src="./js/functions.js"></script>
     <script src="./js/app.js"></script>
   </body>
 </html>

@@ -90,6 +90,64 @@ var musicDatabase = {
           }
         ]
       },
+      {
+        "name": "Janis Joplin",
+        "listeners": "1346649",
+        "mbid": "76c9a186-75bd-436a-85c0-823e3efddb7f",
+        "url": "https://www.last.fm/music/Janis+Joplin",
+        "streamable": "0",
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/563f265388944f8c8a301491f88b0a3f.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/563f265388944f8c8a301491f88b0a3f.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/563f265388944f8c8a301491f88b0a3f.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/563f265388944f8c8a301491f88b0a3f.png",
+            "size": "extralarge"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/563f265388944f8c8a301491f88b0a3f.png",
+            "size": "mega"
+          }
+        ]
+      },
+      {
+        "name": "Aretha Franklin",
+        "listeners": "1629592",
+        "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+        "url": "https://www.last.fm/music/Aretha+Franklin",
+        "streamable": "0",
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7657557518f74361a0a24b738ed0b239.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7657557518f74361a0a24b738ed0b239.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7657557518f74361a0a24b738ed0b239.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7657557518f74361a0a24b738ed0b239.png",
+            "size": "extralarge"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/7657557518f74361a0a24b738ed0b239.png",
+            "size": "mega"
+          }
+        ]
+      }
     ]
   },
 
@@ -846,279 +904,585 @@ var musicDatabase = {
             "size": "extralarge"
           }
         ]
+      },
+
+      // Janis Joplin albums
+            {
+        "name": "Pearl",
+        "playcount": 3232483,
+        "mbid": "d3d7922d-6933-35cd-97f5-f81ca68c6f92",
+        "url": "https://www.last.fm/music/Janis+Joplin/Pearl",
+        "artist": {
+          "name": "Janis Joplin",
+          "mbid": "76c9a186-75bd-436a-85c0-823e3efddb7f",
+          "url": "https://www.last.fm/music/Janis+Joplin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/a869fc6368444866a5f4328b7402c430.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/a869fc6368444866a5f4328b7402c430.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/a869fc6368444866a5f4328b7402c430.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/a869fc6368444866a5f4328b7402c430.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "Greatest Hits",
+        "playcount": 2573601,
+        "mbid": "4acca067-2c26-478b-bd8f-8620073a22dc",
+        "url": "https://www.last.fm/music/Janis+Joplin/Greatest+Hits",
+        "artist": {
+          "name": "Janis Joplin",
+          "mbid": "76c9a186-75bd-436a-85c0-823e3efddb7f",
+          "url": "https://www.last.fm/music/Janis+Joplin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/26cf2e294502477eb432344ed60ef136.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/26cf2e294502477eb432344ed60ef136.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/26cf2e294502477eb432344ed60ef136.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/26cf2e294502477eb432344ed60ef136.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "I Got Dem Ol' Kozmic Blues Again Mama!",
+        "playcount": 1130155,
+        "mbid": "4945c044-d742-433b-b8ff-eb5b28d14249",
+        "url": "https://www.last.fm/music/Janis+Joplin/I+Got+Dem+Ol%27+Kozmic+Blues+Again+Mama%21",
+        "artist": {
+          "name": "Janis Joplin",
+          "mbid": "76c9a186-75bd-436a-85c0-823e3efddb7f",
+          "url": "https://www.last.fm/music/Janis+Joplin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/61542f2c6bd342789305648d0e945075.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/61542f2c6bd342789305648d0e945075.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/61542f2c6bd342789305648d0e945075.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/61542f2c6bd342789305648d0e945075.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "Janis",
+        "playcount": 670589,
+        "mbid": "90faa746-7986-4534-a8a2-a259a40c57e9",
+        "url": "https://www.last.fm/music/Janis+Joplin/Janis",
+        "artist": {
+          "name": "Janis Joplin",
+          "mbid": "76c9a186-75bd-436a-85c0-823e3efddb7f",
+          "url": "https://www.last.fm/music/Janis+Joplin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/b15da0a6a03c4dde8cbbb711cfcdf3f7.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/b15da0a6a03c4dde8cbbb711cfcdf3f7.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/b15da0a6a03c4dde8cbbb711cfcdf3f7.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/b15da0a6a03c4dde8cbbb711cfcdf3f7.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "Janis Joplin's Greatest Hits",
+        "playcount": 1110530,
+        "mbid": "1ca5c7fd-6293-413d-b096-92c00a2e0587",
+        "url": "https://www.last.fm/music/Janis+Joplin/Janis+Joplin%27s+Greatest+Hits",
+        "artist": {
+          "name": "Janis Joplin",
+          "mbid": "76c9a186-75bd-436a-85c0-823e3efddb7f",
+          "url": "https://www.last.fm/music/Janis+Joplin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7b5fb87047554ff5cff39b485ab6f322.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7b5fb87047554ff5cff39b485ab6f322.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7b5fb87047554ff5cff39b485ab6f322.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7b5fb87047554ff5cff39b485ab6f322.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "18 Essential songs",
+        "playcount": 1008636,
+        "mbid": "4fab8af6-95fd-461f-82b7-f40da90180ed",
+        "url": "https://www.last.fm/music/Janis+Joplin/18+Essential+songs",
+        "artist": {
+          "name": "Janis Joplin",
+          "mbid": "76c9a186-75bd-436a-85c0-823e3efddb7f",
+          "url": "https://www.last.fm/music/Janis+Joplin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/1f7932a316004451c4f10b8966530223.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/1f7932a316004451c4f10b8966530223.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/1f7932a316004451c4f10b8966530223.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/1f7932a316004451c4f10b8966530223.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "Pearl (Legacy Edition)",
+        "playcount": 433501,
+        "url": "https://www.last.fm/music/Janis+Joplin/Pearl+(Legacy+Edition)",
+        "artist": {
+          "name": "Janis Joplin",
+          "mbid": "76c9a186-75bd-436a-85c0-823e3efddb7f",
+          "url": "https://www.last.fm/music/Janis+Joplin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/6f2730574ea549a6c94ca05af6a8deaa.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/6f2730574ea549a6c94ca05af6a8deaa.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/6f2730574ea549a6c94ca05af6a8deaa.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/6f2730574ea549a6c94ca05af6a8deaa.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "Janis Joplin: The Woodstock Experience",
+        "playcount": 401430,
+        "url": "https://www.last.fm/music/Janis+Joplin/Janis+Joplin:+The+Woodstock+Experience",
+        "artist": {
+          "name": "Janis Joplin",
+          "mbid": "76c9a186-75bd-436a-85c0-823e3efddb7f",
+          "url": "https://www.last.fm/music/Janis+Joplin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/4972cdcace7c331a28d51e3ff0685181.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/4972cdcace7c331a28d51e3ff0685181.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/4972cdcace7c331a28d51e3ff0685181.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/4972cdcace7c331a28d51e3ff0685181.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+
+      // Aretha Franklin albums
+            {
+        "name": "I Never Loved a Man the Way I Love You",
+        "playcount": 1824138,
+        "mbid": "4b43b2a7-2cab-4f87-9a7e-dfc0913c39ab",
+        "url": "https://www.last.fm/music/Aretha+Franklin/I+Never+Loved+a+Man+the+Way+I+Love+You",
+        "artist": {
+          "name": "Aretha Franklin",
+          "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+          "url": "https://www.last.fm/music/Aretha+Franklin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/92308e5a7c1b41bac1a4a7fbb17b5a23.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/92308e5a7c1b41bac1a4a7fbb17b5a23.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/92308e5a7c1b41bac1a4a7fbb17b5a23.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/92308e5a7c1b41bac1a4a7fbb17b5a23.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "Respect",
+        "playcount": 1059803,
+        "mbid": "68f30ee1-2bbf-4d5a-9cf6-c8a492bd8559",
+        "url": "https://www.last.fm/music/Aretha+Franklin/Respect",
+        "artist": {
+          "name": "Aretha Franklin",
+          "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+          "url": "https://www.last.fm/music/Aretha+Franklin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/e6488a40d34b480ca5cde75532071862.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/e6488a40d34b480ca5cde75532071862.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/e6488a40d34b480ca5cde75532071862.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/e6488a40d34b480ca5cde75532071862.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "20 Greatest Hits",
+        "playcount": 925290,
+        "mbid": "da77d651-a203-44b6-ba66-11079c750985",
+        "url": "https://www.last.fm/music/Aretha+Franklin/20+Greatest+Hits",
+        "artist": {
+          "name": "Aretha Franklin",
+          "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+          "url": "https://www.last.fm/music/Aretha+Franklin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/4be2f15519e6426ba4f5146aeb74723b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/4be2f15519e6426ba4f5146aeb74723b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/4be2f15519e6426ba4f5146aeb74723b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/4be2f15519e6426ba4f5146aeb74723b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "Definitive Soul: Aretha Franklin",
+        "playcount": 1067464,
+        "url": "https://www.last.fm/music/Aretha+Franklin/Definitive+Soul:+Aretha+Franklin",
+        "artist": {
+          "name": "Aretha Franklin",
+          "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+          "url": "https://www.last.fm/music/Aretha+Franklin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7036ba68c3484aabb579339924dc0a0a.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7036ba68c3484aabb579339924dc0a0a.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7036ba68c3484aabb579339924dc0a0a.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7036ba68c3484aabb579339924dc0a0a.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "Soul Queen",
+        "playcount": 666799,
+        "url": "https://www.last.fm/music/Aretha+Franklin/Soul+Queen",
+        "artist": {
+          "name": "Aretha Franklin",
+          "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+          "url": "https://www.last.fm/music/Aretha+Franklin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/eac2e5f134c8458d8d0c4682887d3966.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/eac2e5f134c8458d8d0c4682887d3966.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/eac2e5f134c8458d8d0c4682887d3966.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/eac2e5f134c8458d8d0c4682887d3966.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "Atlantic 60th: Soul, Sweat And Strut",
+        "playcount": 208456,
+        "url": "https://www.last.fm/music/Aretha+Franklin/Atlantic+60th:+Soul,+Sweat+And+Strut",
+        "artist": {
+          "name": "Aretha Franklin",
+          "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+          "url": "https://www.last.fm/music/Aretha+Franklin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/e3e27fa3b5a34ee8ce05818110b57c19.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/e3e27fa3b5a34ee8ce05818110b57c19.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/e3e27fa3b5a34ee8ce05818110b57c19.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/e3e27fa3b5a34ee8ce05818110b57c19.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "Aretha Franklin",
+        "playcount": 304408,
+        "mbid": "9786a304-4449-4db0-b202-43a2f5a4d8ea",
+        "url": "https://www.last.fm/music/Aretha+Franklin/Aretha+Franklin",
+        "artist": {
+          "name": "Aretha Franklin",
+          "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+          "url": "https://www.last.fm/music/Aretha+Franklin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/a4729db92cfe458d97bcfc6bca7238d8.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/a4729db92cfe458d97bcfc6bca7238d8.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/a4729db92cfe458d97bcfc6bca7238d8.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/a4729db92cfe458d97bcfc6bca7238d8.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "Lady Soul",
+        "playcount": 685595,
+        "mbid": "14d8da2b-95e5-338e-bcc8-850a4bd1c537",
+        "url": "https://www.last.fm/music/Aretha+Franklin/Lady+Soul",
+        "artist": {
+          "name": "Aretha Franklin",
+          "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+          "url": "https://www.last.fm/music/Aretha+Franklin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/0f8630de786d47deba0021e01a17f9ad.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/0f8630de786d47deba0021e01a17f9ad.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/0f8630de786d47deba0021e01a17f9ad.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/0f8630de786d47deba0021e01a17f9ad.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "Aretha Now",
+        "playcount": 421023,
+        "mbid": "892e348d-efc2-39c4-9026-57b20cdc041c",
+        "url": "https://www.last.fm/music/Aretha+Franklin/Aretha+Now",
+        "artist": {
+          "name": "Aretha Franklin",
+          "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+          "url": "https://www.last.fm/music/Aretha+Franklin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/8465fb1e1b465584ba1f19e38f236ddf.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/8465fb1e1b465584ba1f19e38f236ddf.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/8465fb1e1b465584ba1f19e38f236ddf.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/8465fb1e1b465584ba1f19e38f236ddf.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "30 Greatest Hits",
+        "playcount": 369628,
+        "mbid": "627b2404-83e3-47be-8fa9-72ceca1af8a5",
+        "url": "https://www.last.fm/music/Aretha+Franklin/30+Greatest+Hits",
+        "artist": {
+          "name": "Aretha Franklin",
+          "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+          "url": "https://www.last.fm/music/Aretha+Franklin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/9df4074e1628410da851c78c8d58067b.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/9df4074e1628410da851c78c8d58067b.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/9df4074e1628410da851c78c8d58067b.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9df4074e1628410da851c78c8d58067b.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "Queen of Soul - The Best of Aretha Franklin",
+        "playcount": 216305,
+        "url": "https://www.last.fm/music/Aretha+Franklin/Queen+of+Soul+-+The+Best+of+Aretha+Franklin",
+        "artist": {
+          "name": "Aretha Franklin",
+          "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+          "url": "https://www.last.fm/music/Aretha+Franklin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/e35c54c30fc5436a902bc184d63cd16c.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/e35c54c30fc5436a902bc184d63cd16c.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/e35c54c30fc5436a902bc184d63cd16c.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/e35c54c30fc5436a902bc184d63cd16c.png",
+            "size": "extralarge"
+          }
+        ]
+      },
+      {
+        "name": "This Girl's in Love With You",
+        "playcount": 190290,
+        "mbid": "b72eea89-2286-4cdb-8963-0ae7ff49cb37",
+        "url": "https://www.last.fm/music/Aretha+Franklin/This+Girl%27s+in+Love+With+You",
+        "artist": {
+          "name": "Aretha Franklin",
+          "mbid": "2f9ecbed-27be-40e6-abca-6de49d50299e",
+          "url": "https://www.last.fm/music/Aretha+Franklin"
+        },
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/f96c9a160cb44312c352c8c48be81eb5.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/f96c9a160cb44312c352c8c48be81eb5.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/f96c9a160cb44312c352c8c48be81eb5.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/f96c9a160cb44312c352c8c48be81eb5.png",
+            "size": "extralarge"
+          }
+        ]
       }
     ]
-  },
-
-  "similarartists": {
-    "@attr": {
-      "artist": "Cher"
-    },
-    "artist": [
-      {
-        "name": "Sonny & Cher",
-        "mbid": "c43d2302-02db-487b-b62d-8cb3c57f94c6",
-        "match": "1",
-        "url": "https://www.last.fm/music/Sonny+&+Cher",
-        "image": [
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/c8c4811ce8d14ea382fc7980aff59b92.png",
-            "size": "small"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/c8c4811ce8d14ea382fc7980aff59b92.png",
-            "size": "medium"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/c8c4811ce8d14ea382fc7980aff59b92.png",
-            "size": "large"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c8c4811ce8d14ea382fc7980aff59b92.png",
-            "size": "extralarge"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/c8c4811ce8d14ea382fc7980aff59b92.png",
-            "size": "mega"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/c8c4811ce8d14ea382fc7980aff59b92.png",
-            "size": ""
-          }
-        ],
-        "streamable": "0"
-      },
-      {
-        "name": "Madonna",
-        "mbid": "79239441-bfd5-4981-a70c-55c3f15c1287",
-        "match": "0.818441",
-        "url": "https://www.last.fm/music/Madonna",
-        "image": [
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/ce0a3407d7e34c6ad5402bc11012520c.png",
-            "size": "small"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/ce0a3407d7e34c6ad5402bc11012520c.png",
-            "size": "medium"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/ce0a3407d7e34c6ad5402bc11012520c.png",
-            "size": "large"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/ce0a3407d7e34c6ad5402bc11012520c.png",
-            "size": "extralarge"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/ce0a3407d7e34c6ad5402bc11012520c.png",
-            "size": "mega"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/ce0a3407d7e34c6ad5402bc11012520c.png",
-            "size": ""
-          }
-        ],
-        "streamable": "0"
-      },
-      {
-        "name": "Kylie Minogue",
-        "mbid": "2fddb92d-24b2-46a5-bf28-3aed46f4684c",
-        "match": "0.742342",
-        "url": "https://www.last.fm/music/Kylie+Minogue",
-        "image": [
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/d6029955ebfdc14cf3a11b12a1279ac0.png",
-            "size": "small"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/d6029955ebfdc14cf3a11b12a1279ac0.png",
-            "size": "medium"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/d6029955ebfdc14cf3a11b12a1279ac0.png",
-            "size": "large"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/d6029955ebfdc14cf3a11b12a1279ac0.png",
-            "size": "extralarge"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/d6029955ebfdc14cf3a11b12a1279ac0.png",
-            "size": "mega"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/d6029955ebfdc14cf3a11b12a1279ac0.png",
-            "size": ""
-          }
-        ],
-        "streamable": "0"
-      },
-      {
-        "name": "Céline Dion",
-        "mbid": "847e8a0c-cc20-4213-9e16-975515c2a926",
-        "match": "0.618431",
-        "url": "https://www.last.fm/music/C%C3%A9line+Dion",
-        "image": [
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/f8da651bb9303910e15f95593120f5e3.png",
-            "size": "small"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/f8da651bb9303910e15f95593120f5e3.png",
-            "size": "medium"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/f8da651bb9303910e15f95593120f5e3.png",
-            "size": "large"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/f8da651bb9303910e15f95593120f5e3.png",
-            "size": "extralarge"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/f8da651bb9303910e15f95593120f5e3.png",
-            "size": "mega"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/f8da651bb9303910e15f95593120f5e3.png",
-            "size": ""
-          }
-        ],
-        "streamable": "0"
-      },
-      {
-        "name": "Whitney Houston",
-        "mbid": "0307edfc-437c-4b48-8700-80680e66a228",
-        "match": "0.600507",
-        "url": "https://www.last.fm/music/Whitney+Houston",
-        "image": [
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/5ca9dd7ad4d0468088d812dec9c88e95.png",
-            "size": "small"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/5ca9dd7ad4d0468088d812dec9c88e95.png",
-            "size": "medium"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/5ca9dd7ad4d0468088d812dec9c88e95.png",
-            "size": "large"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/5ca9dd7ad4d0468088d812dec9c88e95.png",
-            "size": "extralarge"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/5ca9dd7ad4d0468088d812dec9c88e95.png",
-            "size": "mega"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/5ca9dd7ad4d0468088d812dec9c88e95.png",
-            "size": ""
-          }
-        ],
-        "streamable": "0"
-      },
-      {
-        "name": "Bette Midler",
-        "mbid": "ed333e8b-d18a-49fc-b361-4ec9731dfdba",
-        "match": "0.598503",
-        "url": "https://www.last.fm/music/Bette+Midler",
-        "image": [
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/9661c6fe48a17f480e23ecf327b18c4d.png",
-            "size": "small"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/9661c6fe48a17f480e23ecf327b18c4d.png",
-            "size": "medium"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/9661c6fe48a17f480e23ecf327b18c4d.png",
-            "size": "large"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9661c6fe48a17f480e23ecf327b18c4d.png",
-            "size": "extralarge"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/9661c6fe48a17f480e23ecf327b18c4d.png",
-            "size": "mega"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/9661c6fe48a17f480e23ecf327b18c4d.png",
-            "size": ""
-          }
-        ],
-        "streamable": "0"
-      },
-      {
-        "name": "Tina Turner",
-        "mbid": "9072df14-b61e-42e2-b4f4-6bbb7fdb5586",
-        "match": "0.574858",
-        "url": "https://www.last.fm/music/Tina+Turner",
-        "image": [
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/a6b111c80a68b0d7507cde800d18bec6.png",
-            "size": "small"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/a6b111c80a68b0d7507cde800d18bec6.png",
-            "size": "medium"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/a6b111c80a68b0d7507cde800d18bec6.png",
-            "size": "large"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/a6b111c80a68b0d7507cde800d18bec6.png",
-            "size": "extralarge"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/a6b111c80a68b0d7507cde800d18bec6.png",
-            "size": "mega"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/a6b111c80a68b0d7507cde800d18bec6.png",
-            "size": ""
-          }
-        ],
-        "streamable": "0"
-      },
-      {
-        "name": "Cyndi Lauper",
-        "mbid": "7bd9e20e-74b9-446a-a2ed-a223f82a36e7",
-        "match": "0.532501",
-        "url": "https://www.last.fm/music/Cyndi+Lauper",
-        "image": [
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/4c964cad079dafe2dcec4fbfa2d951fa.png",
-            "size": "small"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/4c964cad079dafe2dcec4fbfa2d951fa.png",
-            "size": "medium"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/4c964cad079dafe2dcec4fbfa2d951fa.png",
-            "size": "large"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/4c964cad079dafe2dcec4fbfa2d951fa.png",
-            "size": "extralarge"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/4c964cad079dafe2dcec4fbfa2d951fa.png",
-            "size": "mega"
-          },
-          {
-            "#text": "https://lastfm-img2.akamaized.net/i/u/arQ/4c964cad079dafe2dcec4fbfa2d951fa.png",
-            "size": ""
-          }
-        ],
-        "streamable": "0"
-      }
-    ],
   }
 }

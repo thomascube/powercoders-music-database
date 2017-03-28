@@ -60,6 +60,10 @@
   cursor: pointer;
 }
 
+#artist-details {
+  display: none;
+}
+
 #artist-details .nav-tabs {
   margin-top: 30px;
   margin-bottom: 15px;

@@ -6,14 +6,10 @@ similar to a selected one.
 
 ## Preparation
 
-First: Get yourself familiar with the [jQuery API documentation](http://api.jquery.com/).
+First: Get yourself familiar with the [jQuery API documentation](http://api.jquery.com/)
+and the world of [JavaScript objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object).
 
-Second: Clone this repository onto your computer using git bash.
-
-```
-git clone https://github.com/thomascube/powercoders-music-database.git
-cd powercoders-music-database
-```
+Second: Fork this repository into your Github account and then clone your copy onto your computer using git bash.
 
 ## Implementation
 
@@ -31,35 +27,67 @@ jQuery DOM operations. It already loads the jQuery library as well as Bootstrap 
 layout styling.
 
 Application stylesheets go into `css/styles.css` and the actual application code 
-is to be added to `js/app.js`.
+is structured into different files inside the `js` folder:
+
+* `objects.js`: Constructors and prototypes for object classes.
+* `functions.js`: Rendering functions to read and display the data.
+* `app.js`: The application startup code. Keep it short.
 
 The static mockup database is located in `js/mock-data.js`.
 
-### 1. Assignment
+### 1. Assignment: Object prototypes
 
 Look at `index.html` and identify the DOM nodes where contents from the database is to be added. 
 There are `<!-- comments -->` within the file indicating those places.
 
-Then load the mockup database into the document and analyze its structure.
+Look at the already existing functions in `js/functions.js` and identitfy the object prototypes
+used there. Hint: look out for things like `artist.getName()` or `album.getImage()`.
 
-1. When the page loads, start with building the artist listing from the database data. 
-Identify which properties to use and loop over all artists in the database. For each artist, 
-add a list item showing the name and an image as shown in the example.
-2. Register a `click` event handler to those list elements which will update the artist details 
-on the right side with information from the mockup database matching the clicked artist.
-3. Add the necessary event handlers and actions to make the tabs "Biography", "Albums" and "Similar Artists" 
-work as you'd expect it.
+Analyze the structure and contents of the mockup database in `mock-data.js`.
 
-Please organize your code into different functions like `createArtistList()` or `showArtistDetails()`.
-Define the appropriate arguments those functions shall receive and avoid the use of global variables.
-Always remember the best practices ;-)
+Now implement the object constructors in `objects.js` and try to add the necessary 
+prototype functions used the by rendering functions.
+
+Start with a base constructor `APIRecord` which takes a plain object as argument which
+contains a record (e.g. for an artist or an album) from the database mockup.
+
+In `functions.js` create instances using the `APIRecord` constructor with the data
+retrieved from the mockup database. Pass these instances as argument to the rendering
+functions `createArtistListItem()` and `createAlbumListItem()`.
 
 #### Hints
 
-The HTML template as well as the application stylesheet is only a suggestion and you can and 
-should alter it in order to work best for the manipulations with jQuery. This may include changing or 
-adding `class` or `id` attributes on the elements that will be updated by your code.
+* Search for `TODO:` in the JavaScript files to find all the places where there's something to be added.
+* Open the page in the browser and check the error console to see what's missing.
 
-Be creative and look around, maybe Bootstrap or jQuery provide some functions that could save you 
-from coding all by yourself.
+### 2. Assignment: Class inheritance
+
+Although artists and albums have several things in common (name, url, image) they're not
+quite the same. We shall now use the power of class and prototype inheritance by defining
+individual constructors for both `Artist` and `Album` which inherit common prototype functions
+from `APIRecord` but add individual getter methods to the specialized prototypes. An example
+how to achieve this can be found in the [MSDN JavaScript Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create#Examples).
+
+The `Artist` prototype should get methods for fetching the number of listeners and the artist's biography.
+
+The `Album` prototype shares all its methods with the `APIRecord`.
+
+Finally replace all constructor calls to `APIRecord` in the `functions.js` file with the
+new specialized constructors.
+
+### 3. Assignment: Show artist details on click
+
+Now it's time to add some interactivity! As shown in the example, there are artist details
+to be shown on the right side of the screen. The function to render these details is already there:
+`showArtistDetails()` but yet needs to be called whenever one clicks an artist in the list.
+
+In `app.js` register a delegate (!) click handler using jQuery which will do the following:
+
+1. Remove the `active` class from the list item which currently has that class set.
+2. Render the artist details by calling the appropriate function with the unique identifier of the clicked artist.
+3. Set the `active` class to the clicked list item.
+
+### 4. Assignment: Get the data from the last.fm API
+
+TBD.
 
