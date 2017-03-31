@@ -89,5 +89,23 @@ In `app.js` register a delegate (!) click handler using jQuery which will do the
 
 ### 4. Assignment: Get the data from the last.fm API
 
-TBD.
+Finally we want to use the last.fm database to display information from. Therefore we need to exchange
+all access to the mockup database with Ajax calls to their API.
+
+Start by making yourself familiar with the [last.fm API documentation](http://www.last.fm/api/intro).
+We're going to use the JSON API with an API key I'll send you directly.
+
+Then, replace the list title "Databse Results" with a text input field and a button to 
+execute the artist search when clicked. Use the horizontal form from [Bootstrap](http://getbootstrap.com/css/#forms)
+for this.
+
+Now create a new file `js/ajax.js` which is to contain all the functions we need for fetching
+our data from the API. There, create a new function `searchArtists(query, callback)` which takes
+a string containing the artist name to search for and a callback function which is called with
+the resulting artist list and the total number of matches as arguments. The artist list shall
+be an `Array` of `Artist` objects. The function shall call the API method [artist.search](http://www.last.fm/api/show/artist.search) using jQuery's `$.ajax()` function.
+
+In `js/app.js`, which is our main application controller, connect the pieces and execute that
+`searchArtists()` function when the search button was clicked and when the results are ready,
+pass the results to `createArtistList()` for rendering the list.
 
